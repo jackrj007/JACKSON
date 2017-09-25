@@ -1,7 +1,7 @@
 /****************************************************
 * Trab 2 : Numeros Primos
 * Nome: Jackson da Rocha Nascimento
-* Matrícula: 
+* MatrÃ­cula: 0050015116
 * Professor: Alex Salgado
 *****************************************************/
 
@@ -12,18 +12,18 @@ int main (void)
 { 
 	int i, num, opc=1, teste = 0; 
 	
-	printf("\nOla, meu nome eh Jackson da Rocha e vou calcular numeros primos.\n"); // Mensagem de saudação.
+	printf("\nOla, meu nome eh Jackson da Rocha e vou calcular numeros primos.\n"); // Mensagem de saudaÃ§Ã£o.
 
-	while (opc<=1) // Início do loop - "Deseja continuar (1-Sim / 2-Nao) ?".
+	while (opc<=1) // InÃ­cio do loop - "Deseja continuar (1-Sim / 2-Nao) ?".
 	{	
-		do // Início do loop - Entrada do número apenas positivo.
+		do // InÃ­cio do loop - Entrada do nÃºmero apenas positivo.
 		{
 			printf ("\nEntre com um numero positivo:  "); 
 	
 			if (scanf ("%d", &num) != 1) 
 			return -1; 
 		}
-		while(num<=0); // Fechamento do loop - Entrada do número apenas positivo.
+		while(num<=0); // Fechamento do loop - Entrada do nÃºmero apenas positivo.
 	
 		for (i = 2; i < num; i++) 
 	
