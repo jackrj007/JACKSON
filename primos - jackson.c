@@ -41,7 +41,7 @@ int main (void)
 	} // Fechamento do loop - "Deseja continuar (1-Sim / 2-Nao) ?".
 	
 	if (opc=2) // Agradecimento antes do encerrar programa.
-	printf("\nObrigado, ate a proxima! Para ver o meu codigo entre no link:\n\n_____link do github neste espaco_____\n\n");
+	printf("\nObrigado, ate a proxima! Para ver o meu codigo entre no link:\n\nhttps://github.com/jackrj007/JACKSON/blob/master/primos%20-%20jackson.c\n\n");
 	
 	system("pause");
 	return 0;
