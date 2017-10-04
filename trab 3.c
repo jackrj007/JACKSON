@@ -47,7 +47,7 @@ int main()
 	
 	if (p=2)
 	
-	printf("\nObrigado, até a próxima!\n\n");
+	printf("\nObrigado pelo teste até mais\n\n");
 
 	system("pause");
 	return 0;
