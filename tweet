@@ -1,0 +1,21 @@
+#include <stdio.h>      // biblioteca padrao de i/o
+ #include <string.h>    
+ 
+ int main()
+{
+    char tweet [140];
+    int i ,tam, qtdHash=0; 
+    
+    printf("\nEntre com um tweet:");  
+    scanf("%[^\n]s",tweet);
+    
+    tam = strlen(tweet);
+    for(i=0; i<tam; i++)
+    {
+if(tweet[i] == '#')
+qtdHash++;
+}
+printf("\n numero de hashtag's encontrado: %d" , qtdHash);
+system("pause");
+ return 0;
+}        
